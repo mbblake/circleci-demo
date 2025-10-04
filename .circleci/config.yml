@@ -18,3 +18,7 @@ jobs:
                   path: test-results/
             - store_artifacts:
                   path: playwright-report/
+workflows:
+    playwright_workflow:
+        jobs:
+            - build_and_test
