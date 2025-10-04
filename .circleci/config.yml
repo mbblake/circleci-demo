@@ -21,4 +21,4 @@ jobs:
 workflows:
     playwright_workflow:
         jobs:
-            - build_and_test
+            - run-playwright-tests
